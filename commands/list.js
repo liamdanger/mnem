@@ -3,7 +3,7 @@ const storage = require('node-persist')
 module.exports = {
     command: 'list',
     aliases: ['ls'],
-    desc: 'List available strings',
+    desc: 'List strings by key',
     handler: async () => {
         await storage.init()
         const keys = await storage.keys()
