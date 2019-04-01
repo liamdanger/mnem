@@ -1,6 +1,6 @@
 {
   "name": "mnem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command-line string keeper",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
     "chalk": "^2.4.2",
     "node-persist": "^3.0.4",
     "yargs": "^13.2.2"
+  },
+  "bin": {
+    "mnem": "index.js"
   }
 }
